@@ -9,6 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "heroku-postbuild": "nuxt generate", 
     "lint": "eslint --ext .js,.vue,.ts --ignore-path .gitignore .",
     "test": "jest --coverage",
     "test-watch": "jest --watch",
