@@ -46,7 +46,8 @@ export default class WeekplanTable extends Vue {
     'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'
   ]
 
-  @Provide() dayTimes: DayTimesType[] = ['breakfast', 'lunch', 'dinner']
+  // @Provide() dayTimes: DayTimesType[] = ['breakfast', 'lunch', 'dinner']
+  @Provide() dayTimes: DayTimesType[] = ['dinner']
 
   get currentWeekday (): WeekdaysType {
     const weekdays = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
